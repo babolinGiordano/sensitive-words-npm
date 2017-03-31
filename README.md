@@ -1,10 +1,10 @@
 # Example
 
-'''shell
+```shell
 $ npm install sensitive-words-npm --save
-'''
+```
 
-'''javascript
+```javascript
 const sensitiveWordsNpm = require('sensitive-words-npm').default;
 // ES2015 modules
 import {sensitiveWordsNpm} from 'sensitive-words-npm'
@@ -17,4 +17,4 @@ const filtered =
 
 	console.log(filtered);
 	// The new Apple Macbook *** will have a *** 
-'''
+```
