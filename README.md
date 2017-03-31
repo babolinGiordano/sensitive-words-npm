@@ -1,7 +1,3 @@
-EGGHEAD.IO
-
-Publish javascript package on npm
-
 # Example
 
 '''shell
