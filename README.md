@@ -15,6 +15,6 @@ const filtered =
 		['pro', 'touchbar']
 	)
 
-	console.log(filtered);
-	// The new Apple Macbook *** will have a *** 
+console.log(filtered);
+// The new Apple Macbook *** will have a *** 
 ```
