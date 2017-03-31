@@ -1,0 +1,39 @@
+{
+  "name": "sensitive-words-npm",
+  "version": "1.0.0",
+  "description": "Filter out a list of sensitive words",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "watch 'npm run build' src",
+    "build": "babel src -d build",
+    "test": "jest --coverage",
+    "test:watch": "npm test -- --watch"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babolinGiordano/sensitive-words-npm.git"
+  },
+  "keywords": [
+    "filter",
+    "filtering",
+    "sensitive",
+    "words"
+  ],
+  "author": "Giordano Babolin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/babolinGiordano/sensitive-words-npm/issues"
+  },
+  "homepage": "https://github.com/babolinGiordano/sensitive-words-npm#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-latest": "^6.24.0",
+    "jest": "^19.0.2",
+    "watch": "^1.0.2"
+  }
+}
