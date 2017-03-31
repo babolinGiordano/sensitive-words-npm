@@ -16,5 +16,5 @@ const filtered =
 	)
 
 console.log(filtered);
-// The new Apple Macbook *** will have a *** 
+// The new Apple Macbook *** will have a ***.
 ```
